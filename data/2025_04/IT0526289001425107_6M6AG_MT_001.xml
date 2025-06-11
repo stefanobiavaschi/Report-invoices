@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:FileMetadati xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fattura/messaggi/v1.0" versione="1.0">
+    <IdentificativoSdI>14503197944</IdentificativoSdI>
+    <NomeFile>IT0526289001425107_6M6AG.xml.p7m</NomeFile>
+    <Hash>33091fd189553b6c6fe36cb140cecb977feb8ae58e2f6b721bbbb912ede28b12</Hash>
+    <CodiceDestinatario>SUBM70N</CodiceDestinatario>
+    <Formato>FPR12</Formato>
+    <TentativiInvio>1</TentativiInvio>
+    <MessageId>34669988872</MessageId>
+</ns3:FileMetadati>

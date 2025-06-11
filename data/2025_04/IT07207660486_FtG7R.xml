@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generato da Open Business - Tekne il 2025-04-17 07:05:37.3466098+02:00--><p:FatturaElettronica versione="FPR12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 https://www.fatturapa.gov.it/export/documenti/fatturapa/v1.2.1/Schema_del_file_xml_FatturaPA_versione_1.2.1a.xsd" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>07207660486</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>234815045</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>SUBM70N</CodiceDestinatario>
+      <ContattiTrasmittente>
+        <Telefono>0516033311</Telefono>
+        <Email>open.business_varhub@vargroup.it</Email>
+      </ContattiTrasmittente>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>11023300962</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>IPERAL SUPERMERCATI S.P.A. C SOCIO UNICO</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA LA ROSA, 354</Indirizzo>
+        <CAP>23010</CAP>
+        <Comune>PIANTEDO</Comune>
+        <Provincia>SO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>11023300962</NumeroREA>
+        <CapitaleSociale>12000000.00</CapitaleSociale>
+        <SocioUnico>SU</SocioUnico>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>0342/606811</Telefono>
+        <Fax>0342/606149</Fax>
+        <Email>info@iperal.it</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>01087820146</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>BVSNDR96E19C623Y</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>BIAVASCHI ANDREA</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA COMUNALE SARLONE 1A</Indirizzo>
+        <CAP>23020</CAP>
+        <Comune>PIURO</Comune>
+        <Provincia>SO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-04-16</Data>
+        <Numero>2691/Y</Numero>
+        <ImportoTotaleDocumento>101.58</ImportoTotaleDocumento>
+        <Causale>PRATA CAMPORTACCIO VIA GIULIO CHIARELLI, 4 6 23020 PRATA CAMPORTACCIO (SO)</Causale>
+      </DatiGeneraliDocumento>
+      <DatiOrdineAcquisto>
+        <IdDocumento>2691/Y</IdDocumento>
+      </DatiOrdineAcquisto>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>POWERADE SPORT DRINK ML500</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>1.02459</PrezzoUnitario>
+        <PrezzoTotale>1.02</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>MR.PACK PELLICOLA TRASP M300</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>4.909835</PrezzoUnitario>
+        <PrezzoTotale>9.82</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>APRISCATOLE  GRANDCHEF</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>5.106557</PrezzoUnitario>
+        <PrezzoTotale>5.11</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>CUCITRICE PUNTI 10</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>2.704918</PrezzoUnitario>
+        <PrezzoTotale>2.70</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <Descrizione>PRIMIA SALE MAR IOD FINO KG1</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>0.368853</PrezzoUnitario>
+        <PrezzoTotale>0.37</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>6</NumeroLinea>
+        <Descrizione>ITALKALI SALE GROSSO KG1</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>0.163935</PrezzoUnitario>
+        <PrezzoTotale>0.16</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>7</NumeroLinea>
+        <Descrizione>CALVE SPICY MAIO ML250</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>1.918182</PrezzoUnitario>
+        <PrezzoTotale>3.84</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>8</NumeroLinea>
+        <Descrizione>PRIMIA PANNA SPRAY G250</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>1.809091</PrezzoUnitario>
+        <PrezzoTotale>3.62</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>9</NumeroLinea>
+        <Descrizione>ACCENDIGAS FLEX 40411537</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>1.639345</PrezzoUnitario>
+        <PrezzoTotale>1.64</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>10</NumeroLinea>
+        <Descrizione>TERGIVETRO G GUMMY BIANCO</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>6.147541</PrezzoUnitario>
+        <PrezzoTotale>6.15</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>11</NumeroLinea>
+        <Descrizione>SPATOLA TERGIVETRO CM25</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>4.344263</PrezzoUnitario>
+        <PrezzoTotale>4.34</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>12</NumeroLinea>
+        <Descrizione>PRIMIA BASTONC SPIEDI CM20 X50</Descrizione>
+        <Quantita>6.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>0.729508</PrezzoUnitario>
+        <PrezzoTotale>4.38</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>13</NumeroLinea>
+        <Descrizione>PORTAPROGETTI D5 NEW COL</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>4.581967</PrezzoUnitario>
+        <PrezzoTotale>4.58</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>14</NumeroLinea>
+        <Descrizione>PRIMIA PEPE NERO MACINATO G250</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>3.90</PrezzoUnitario>
+        <PrezzoTotale>7.80</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>15</NumeroLinea>
+        <Descrizione>PRIMIA SET LAVAPAVIMENTI COMPL</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>6.47541</PrezzoUnitario>
+        <PrezzoTotale>6.48</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>16</NumeroLinea>
+        <Descrizione>BIADESIVO TESA EXTRAF MT5XMM50</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>5.327869</PrezzoUnitario>
+        <PrezzoTotale>5.33</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>17</NumeroLinea>
+        <Descrizione>PRIMIA CACAO AMARO G75</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>0.627273</PrezzoUnitario>
+        <PrezzoTotale>1.25</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>18</NumeroLinea>
+        <Descrizione>SADAM ZUCCH KG1</Descrizione>
+        <Quantita>10.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>1.045455</PrezzoUnitario>
+        <PrezzoTotale>10.45</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>19</NumeroLinea>
+        <Descrizione>PRIMIA ZUCCH CANNA KG1</Descrizione>
+        <Quantita>4.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>1.545455</PrezzoUnitario>
+        <PrezzoTotale>6.18</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>20</NumeroLinea>
+        <Descrizione>PRIMIA FARINA 00 KG1</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>0.759615</PrezzoUnitario>
+        <PrezzoTotale>1.52</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      7076</RiferimentoTesto>
+          <RiferimentoData>2025-04-16</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>52.08</ImponibileImporto>
+        <Imposta>11.46</Imposta>
+      </DatiRiepilogo>
+      <DatiRiepilogo>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <ImponibileImporto>33.15</ImponibileImporto>
+        <Imposta>3.31</Imposta>
+      </DatiRiepilogo>
+      <DatiRiepilogo>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <ImponibileImporto>1.52</ImponibileImporto>
+        <Imposta>0.06</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>

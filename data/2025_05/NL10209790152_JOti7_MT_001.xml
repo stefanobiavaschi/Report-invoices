@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:FileMetadati xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fattura/messaggi/v1.0" versione="1.0">
+    <IdentificativoSdI>14781985104</IdentificativoSdI>
+    <NomeFile>NL10209790152_JOti7.xml.p7m</NomeFile>
+    <Hash>239a5e7472fa1f789c52d1a52772e008f7a329e9c3986873c90447048611136f</Hash>
+    <CodiceDestinatario>SUBM70N</CodiceDestinatario>
+    <Formato>FPR12</Formato>
+    <TentativiInvio>1</TentativiInvio>
+    <MessageId>35913089029</MessageId>
+</ns3:FileMetadati>

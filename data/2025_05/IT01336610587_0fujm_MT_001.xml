@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:FileMetadati xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fattura/messaggi/v1.0" versione="1.0">
+    <IdentificativoSdI>14754101371</IdentificativoSdI>
+    <NomeFile>IT01336610587_0fujm.xml</NomeFile>
+    <Hash>670d2d274deccf18eaa8051e4bdd9b555582b5cc49fd0f8200fd7d095dfe3e80</Hash>
+    <CodiceDestinatario>SUBM70N</CodiceDestinatario>
+    <Formato>FPR12</Formato>
+    <TentativiInvio>1</TentativiInvio>
+    <MessageId>35814086631</MessageId>
+</ns3:FileMetadati>

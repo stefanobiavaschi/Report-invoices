@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:FileMetadati xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fattura/messaggi/v1.0" versione="1.0">
+    <IdentificativoSdI>14869484131</IdentificativoSdI>
+    <NomeFile>IT00468490149_00EGC.xml</NomeFile>
+    <Hash>45e2dfe4863bd9c558a954881da0c3b9930e58562231ac688ff7ec7173f4492e</Hash>
+    <CodiceDestinatario>SUBM70N</CodiceDestinatario>
+    <Formato>FPR12</Formato>
+    <TentativiInvio>1</TentativiInvio>
+    <MessageId>36119717451</MessageId>
+</ns3:FileMetadati>

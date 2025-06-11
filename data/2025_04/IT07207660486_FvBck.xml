@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generato da Open Business - Tekne il 2025-04-28 07:03:41.8645621+02:00--><p:FatturaElettronica versione="FPR12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 https://www.fatturapa.gov.it/export/documenti/fatturapa/v1.2.1/Schema_del_file_xml_FatturaPA_versione_1.2.1a.xsd" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>07207660486</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>235274422</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>SUBM70N</CodiceDestinatario>
+      <ContattiTrasmittente>
+        <Telefono>0516033311</Telefono>
+        <Email>open.business_varhub@vargroup.it</Email>
+      </ContattiTrasmittente>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>11023300962</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>IPERAL SUPERMERCATI S.P.A. C SOCIO UNICO</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA LA ROSA, 354</Indirizzo>
+        <CAP>23010</CAP>
+        <Comune>PIANTEDO</Comune>
+        <Provincia>SO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>11023300962</NumeroREA>
+        <CapitaleSociale>12000000.00</CapitaleSociale>
+        <SocioUnico>SU</SocioUnico>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>0342/606811</Telefono>
+        <Fax>0342/606149</Fax>
+        <Email>info@iperal.it</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>01087820146</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>BVSNDR96E19C623Y</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>BIAVASCHI ANDREA</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA COMUNALE SARLONE 1A</Indirizzo>
+        <CAP>23020</CAP>
+        <Comune>PIURO</Comune>
+        <Provincia>SO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-04-27</Data>
+        <Numero>2916/Y</Numero>
+        <ImportoTotaleDocumento>50.79</ImportoTotaleDocumento>
+        <Causale>PRATA CAMPORTACCIO VIA GIULIO CHIARELLI, 4 6 23020 PRATA CAMPORTACCIO (SO)</Causale>
+      </DatiGeneraliDocumento>
+      <DatiOrdineAcquisto>
+        <IdDocumento>2916/Y</IdDocumento>
+      </DatiOrdineAcquisto>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>ARIETE SPREMIAGRUMI METAL 0407</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>24.508196</PrezzoUnitario>
+        <PrezzoTotale>24.51</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      1104</RiferimentoTesto>
+          <RiferimentoData>2025-04-27</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>NASTRO MASCHERATURA M25 CM4,8</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>1.057376</PrezzoUnitario>
+        <PrezzoTotale>1.06</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      1104</RiferimentoTesto>
+          <RiferimentoData>2025-04-27</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>PRIMIA ZUCCH CANNA KG1</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>1.545455</PrezzoUnitario>
+        <PrezzoTotale>3.09</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      1104</RiferimentoTesto>
+          <RiferimentoData>2025-04-27</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>MR.PACK PELLICOLA TRASP M300</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>4.909835</PrezzoUnitario>
+        <PrezzoTotale>4.91</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      1104</RiferimentoTesto>
+          <RiferimentoData>2025-04-27</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <Descrizione>ITALKALI SALE FINO KG1</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>0.163935</PrezzoUnitario>
+        <PrezzoTotale>0.16</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      1104</RiferimentoTesto>
+          <RiferimentoData>2025-04-27</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>6</NumeroLinea>
+        <Descrizione>PRIMIA ACETO MELE ML500</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>0.90</PrezzoUnitario>
+        <PrezzoTotale>0.90</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      1104</RiferimentoTesto>
+          <RiferimentoData>2025-04-27</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>7</NumeroLinea>
+        <Descrizione>CALVE SALSA TDOWN ML250</Descrizione>
+        <Quantita>2.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>1.627273</PrezzoUnitario>
+        <PrezzoTotale>3.25</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      1104</RiferimentoTesto>
+          <RiferimentoData>2025-04-27</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>8</NumeroLinea>
+        <Descrizione>SHOPPER BIO IPERAL IPER</Descrizione>
+        <Quantita>1.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>0.081967</PrezzoUnitario>
+        <PrezzoTotale>0.08</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      1104</RiferimentoTesto>
+          <RiferimentoData>2025-04-27</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>9</NumeroLinea>
+        <Descrizione>PRIMIA BASTONC SPIEDI CM20 X50</Descrizione>
+        <Quantita>6.00</Quantita>
+        <UnitaMisura>NU</UnitaMisura>
+        <PrezzoUnitario>0.729508</PrezzoUnitario>
+        <PrezzoTotale>4.38</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>SCONTRINO</TipoDato>
+          <RiferimentoTesto>      1104</RiferimentoTesto>
+          <RiferimentoData>2025-04-27</RiferimentoData>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>35.10</ImponibileImporto>
+        <Imposta>7.72</Imposta>
+      </DatiRiepilogo>
+      <DatiRiepilogo>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <ImponibileImporto>7.25</ImponibileImporto>
+        <Imposta>0.72</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>
