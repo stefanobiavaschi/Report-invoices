@@ -1,352 +1,0 @@
-0Ç;˜	*ÜHÜ˜†Ç;Ë0Ç;‰10	`ÜHe0Ç/∫	*ÜHÜ˜†Ç/´Ç/ß<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="fatturapa_v1.2.xsl"?>
-<p:FatturaElettronica xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" versione="FPR12">
-	<FatturaElettronicaHeader>
-		<DatiTrasmissione>
-			<IdTrasmittente>
-				<IdPaese>IT</IdPaese>
-				<IdCodice>05006900962</IdCodice>
-			</IdTrasmittente>
-			<ProgressivoInvio>ycuhkKrCW8</ProgressivoInvio>
-			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
-			<CodiceDestinatario>SUBM70N</CodiceDestinatario>
-		</DatiTrasmissione>
-		<CedentePrestatore>
-			<DatiAnagrafici>
-				<IdFiscaleIVA>
-					<IdPaese>IT</IdPaese>
-					<IdCodice>01000980142</IdCodice>
-				</IdFiscaleIVA>
-				<CodiceFiscale>01000980142</CodiceFiscale>
-				<Anagrafica>
-					<Denominazione>COLORIFICIO GIANOLI di Francesco Gianoli &amp; C SNC</Denominazione>
-				</Anagrafica>
-				<AlboProfessionale>SONDRIO</AlboProfessionale>
-				<ProvinciaAlbo>SO</ProvinciaAlbo>
-				<NumeroIscrizioneAlbo>75358</NumeroIscrizioneAlbo>
-				<DataIscrizioneAlbo>2017-01-05</DataIscrizioneAlbo>
-				<RegimeFiscale>RF01</RegimeFiscale>
-			</DatiAnagrafici>
-			<Sede>
-				<Indirizzo>VIA NAZIONALE 91</Indirizzo>
-				<CAP>23020</CAP>
-				<Comune>PRATA CAMPORTACCIO</Comune>
-				<Provincia>SO</Provincia>
-				<Nazione>IT</Nazione>
-			</Sede>
-			<IscrizioneREA>
-				<Ufficio>SO</Ufficio>
-				<NumeroREA>75358</NumeroREA>
-				<CapitaleSociale>10000.00</CapitaleSociale>
-				<SocioUnico>SM</SocioUnico>
-				<StatoLiquidazione>LN</StatoLiquidazione>
-			</IscrizioneREA>
-			<Contatti>
-				<Telefono>034332270</Telefono>
-				<Email>colorificiogianoli@gmail.com</Email>
-			</Contatti>
-		</CedentePrestatore>
-		<CessionarioCommittente>
-			<DatiAnagrafici>
-				<IdFiscaleIVA>
-					<IdPaese>IT</IdPaese>
-					<IdCodice>01087820146</IdCodice>
-				</IdFiscaleIVA>
-				<CodiceFiscale>BVSNDR96E19C623Y</CodiceFiscale>
-				<Anagrafica>
-					<Denominazione>BIAVASCHI ANDREA</Denominazione>
-				</Anagrafica>
-			</DatiAnagrafici>
-			<Sede>
-				<Indirizzo>STR COMUNALE DI SARLONE, 1/A</Indirizzo>
-				<CAP>23020</CAP>
-				<Comune>PIURO</Comune>
-				<Provincia>SO</Provincia>
-				<Nazione>IT</Nazione>
-			</Sede>
-		</CessionarioCommittente>
-	</FatturaElettronicaHeader>
-	<FatturaElettronicaBody>
-		<DatiGenerali>
-			<DatiGeneraliDocumento>
-				<TipoDocumento>TD24</TipoDocumento>
-				<Divisa>EUR</Divisa>
-				<Data>2025-05-31</Data>
-				<Numero>2025   423</Numero>
-				<ImportoTotaleDocumento>173.00</ImportoTotaleDocumento>
-			</DatiGeneraliDocumento>
-			<DatiDDT>
-				<NumeroDDT>1087</NumeroDDT>
-				<DataDDT>2025-05-28</DataDDT>
-			</DatiDDT>
-			<DatiTrasporto>
-				<NumeroColli>12</NumeroColli>
-			</DatiTrasporto>
-		</DatiGenerali>
-		<DatiBeniServizi>
-			<DettaglioLinee>
-				<NumeroLinea>1</NumeroLinea>
-				<Descrizione>Doc.trasporto N.  1087 del 28/05/25</Descrizione>
-				<PrezzoUnitario>0.0000000</PrezzoUnitario>
-				<PrezzoTotale>0.0000000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-				<AltriDatiGestionali>
-					<TipoDato>AswTRiga</TipoDato>
-					<RiferimentoTesto>Descrittivo #DE#</RiferimentoTesto>
-				</AltriDatiGestionali>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>2</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>2212230L375</CodiceValore>
-				</CodiceArticolo>
-				<CodiceArticolo>
-					<CodiceTipo>AswCodEan</CodiceTipo>
-					<CodiceValore>8018448008252</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>POLYLAC SAT. 230 nero lt 0,375</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>11.0700000</PrezzoUnitario>
-				<PrezzoTotale>11.0700000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>3</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>5074178</CodiceValore>
-				</CodiceArticolo>
-				<CodiceArticolo>
-					<CodiceTipo>AswCodEan</CodiceTipo>
-					<CodiceValore>8711115280141</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>RUBBOL SATURA PLUS BASE W05 lt. 1 RAL 9010</Descrizione>
-				<Quantita>2.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>32.2100000</PrezzoUnitario>
-				<PrezzoTotale>64.4200000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>4</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>5244539</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>RUBBOL BL MAGURA BASE N00 lt. 0,500 J2.39.42.</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>22.3000000</PrezzoUnitario>
-				<PrezzoTotale>22.3000000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>5</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>5277343</CodiceValore>
-				</CodiceArticolo>
-				<CodiceArticolo>
-					<CodiceTipo>AswCodEan</CodiceTipo>
-					<CodiceValore>8711115342634</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>RUBBOL BL MAGURA TN.01.65. lt. 0,500</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>20.3000000</PrezzoUnitario>
-				<PrezzoTotale>20.3000000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>6</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>40210100</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>ROT. CARTA VETRATA CON VELCRO mt. 5 gr. 100</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>12.2600000</PrezzoUnitario>
-				<PrezzoTotale>12.2600000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>7</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>WB10755</CodiceValore>
-				</CodiceArticolo>
-				<CodiceArticolo>
-					<CodiceTipo>AswCodEan</CodiceTipo>
-					<CodiceValore>6941640109521</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>SPAZZOLA A TAZZA C/FILO ONDULATO DIAM. 75 MM BL</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>3.1100000</PrezzoUnitario>
-				<PrezzoTotale>3.1100000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>8</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>024014010100</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>SPAZZOLE per trapano miste</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>3.6900000</PrezzoUnitario>
-				<PrezzoTotale>3.6900000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>9</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>KEL1681</CodiceValore>
-				</CodiceArticolo>
-				<CodiceArticolo>
-					<CodiceTipo>AswCodEan</CodiceTipo>
-					<CodiceValore>4015000414890</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>COLLA PATTEX legno exp gr. 250</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>10.4900000</PrezzoUnitario>
-				<PrezzoTotale>10.4900000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>10</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>F20988</CodiceValore>
-				</CodiceArticolo>
-				<CodiceArticolo>
-					<CodiceTipo>AswCodEan</CodiceTipo>
-					<CodiceValore>8006937007268</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>DILUENTE NITRO lt. 1</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>3.2800000</PrezzoUnitario>
-				<PrezzoTotale>3.2800000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>11</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>14050</CodiceValore>
-				</CodiceArticolo>
-				<CodiceArticolo>
-					<CodiceTipo>AswCodEan</CodiceTipo>
-					<CodiceValore>8016641000707</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>PENNELLI S.140 50</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>3.6900000</PrezzoUnitario>
-				<PrezzoTotale>3.6900000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>12</NumeroLinea>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>85161161</CodiceValore>
-				</CodiceArticolo>
-				<CodiceArticolo>
-					<CodiceTipo>AswCodEan</CodiceTipo>
-					<CodiceValore>8005860851610</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>SILICONE TRASPARENTE BLISTER</Descrizione>
-				<Quantita>1.0000000</Quantita>
-				<UnitaMisura>n</UnitaMisura>
-				<PrezzoUnitario>2.9500000</PrezzoUnitario>
-				<PrezzoTotale>2.9500000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>13</NumeroLinea>
-				<TipoCessionePrestazione>SC</TipoCessionePrestazione>
-				<CodiceArticolo>
-					<CodiceTipo>AswArtFor</CodiceTipo>
-					<CodiceValore>&lt;Sconto/Magg. finale&gt;</CodiceValore>
-				</CodiceArticolo>
-				<Descrizione>Sconti/maggiorazioni finali</Descrizione>
-				<PrezzoUnitario>-15.7560000</PrezzoUnitario>
-				<PrezzoTotale>-15.7560000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-				<AltriDatiGestionali>
-					<TipoDato>AswTRiga</TipoDato>
-					<RiferimentoTesto>Riga sconto #SC#</RiferimentoTesto>
-				</AltriDatiGestionali>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>14</NumeroLinea>
-				<Descrizione>Contributo ambientale Conai assolto</Descrizione>
-				<PrezzoUnitario>0.0000000</PrezzoUnitario>
-				<PrezzoTotale>0.0000000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-				<AltriDatiGestionali>
-					<TipoDato>AswTRiga</TipoDato>
-					<RiferimentoTesto>Descrittivo #DE#</RiferimentoTesto>
-				</AltriDatiGestionali>
-			</DettaglioLinee>
-			<DettaglioLinee>
-				<NumeroLinea>15</NumeroLinea>
-				<Descrizione>Riga ausiliaria contenente informazioni tecniche e aggiuntive del documento</Descrizione>
-				<PrezzoUnitario>0.0000000</PrezzoUnitario>
-				<PrezzoTotale>0.0000000</PrezzoTotale>
-				<AliquotaIVA>22.00</AliquotaIVA>
-				<AltriDatiGestionali>
-					<TipoDato>AswTRiga</TipoDato>
-					<RiferimentoTesto>Informazioni documento #ID#</RiferimentoTesto>
-				</AltriDatiGestionali>
-				<AltriDatiGestionali>
-					<TipoDato>AswRelStd</TipoDato>
-					<RiferimentoTesto>Versione #Asw0104#</RiferimentoTesto>
-				</AltriDatiGestionali>
-				<AltriDatiGestionali>
-					<TipoDato>AswTratSco</TipoDato>
-					<RiferimentoTesto>Valori come righe sconto #PRS#</RiferimentoTesto>
-				</AltriDatiGestionali>
-			</DettaglioLinee>
-			<DatiRiepilogo>
-				<AliquotaIVA>22.00</AliquotaIVA>
-				<Arrotondamento>-0.0040000</Arrotondamento>
-				<ImponibileImporto>141.80</ImponibileImporto>
-				<Imposta>31.20</Imposta>
-				<EsigibilitaIVA>I</EsigibilitaIVA>
-			</DatiRiepilogo>
-		</DatiBeniServizi>
-		<DatiPagamento>
-			<CondizioniPagamento>TP02</CondizioniPagamento>
-			<DettaglioPagamento>
-				<ModalitaPagamento>MP05</ModalitaPagamento>
-				<DataScadenzaPagamento>2025-05-31</DataScadenzaPagamento>
-				<ImportoPagamento>173.00</ImportoPagamento>
-				<IstitutoFinanziario>BANCA POPOLARE DI SONDRIO</IstitutoFinanziario>
-				<IBAN>IT30A0569652110000008200X31</IBAN>
-				<ABI>05696</ABI>
-				<CAB>52110</CAB>
-				<CodicePagamento>BO01</CodicePagamento>
-			</DettaglioPagamento>
-		</DatiPagamento>
-	</FatturaElettronicaBody>
-</p:FatturaElettronica>
-†Ç0Ç{0Çc†	£0	*ÜHÜ˜ 0Åß10	UIT10U
-Zucchetti S.p.A.1)0'U Qualified Trust Service Provider10UaVATIT-050069009621604U-Zucchetti Qualified Electronic Signature CA 20230119141236Z260119000000Z0Å¬10	UIT10UaVATIT-010009801421"0 U
-LA BOTTEGA DEL COLORE SNC10UTINIT-GNLRMN57E29G993T10U.202314780224810UROMANO GIANOLI10UGIANOLI10U*ROMANO0Ç"0	*ÜHÜ˜ Ç 0Ç
-Ç  ^Xﬂ∏î0»ÊFËÄûl¬6Vˆ îd=#}UDD'≈ç‡Áç‰¯…=É|3N/ÇËœñ∂Lœ¶O«oæô¬ÿ˛ÜÛ˝¯ŸV¡Ø‹dΩŒ<9∞∂–O]Mj,g÷ÙoæÔ£∏2=ã˜óàîU ©>uO‰πÙ˘=›Œ•;Å'¡[µ[x°*S/ Õt5Ëñ¨Uéö‹û™˛$)¿ÃˆPâ	.]Jˆ›tfU–™0go]T∂€”o:√Úd9⁄ﬁ>˙»°ß¬Ω≥ôÖ•l§hƒ‰î∆„ÜW
-ßã¯!Âzx
-ó¥mªESr¥÷Ó˝…–FD»≠∑¢{àÇ`)3Äûü £Çí0Çé0	U0 0ÅÄ+t0r04+0Ü(http://ocsp.qc.ca2.zucchetticertifica.it0:+0Ü.http://crl.ca2.zucchetticertifica.it/qc/CA.crt0ÇÖU Ç|0Çx0ÅÛ+L-0ÅË04+(https://ca.zucchetticertifica.it/doc/mo/0ÅØ+0Å¢ÅüIl presente certificato √® valido solo per firme apposte con procedura automatica. The certificate may be used only for automatic procedure signature purposes.0	 ãÏ@0u+L0m0k+0_]Questo certificato rispetta le raccomandazioni previste dalla Determinazione Agid N. 121/20190Å∂+Å©0Å¶0 éF0 éF0 éF0n éF0d0b\https://wwww.zucchetticertifica.it/gestionefirme/dms/doc/PKIDisclosureStatementZucchetti.pdfen0 éF0	 éF0BU;0907†5†3Ü1http://crl.ca2.zucchetticertifica.it/qc/CRL01.crl0Uˇ@0(U	!00+	119570529000000Z0U#0Ä7ÔQ+æƒ∆ ÕlDGÒ&
-Ã5íà0U¯∫*¸1ÔDíÆiÍKSÁ2^√0	*ÜHÜ˜ Ç o…∑öbüˆπkˇ4mbNxò∑€¨L®üÊ€é.“6]%€+›U|j]÷`
-„∫òO⁄Z‰òêÁ⁄(”{è,0˝¯30Êù	 k˝_îÒaS)∑ ü√ììQ§qŸäÑ=où¨†˝∫\“Înµ|˘Eb¥©v·{“⁄ô⁄C]Á∞§`–çÔÔÿÂøMS˛ï 	>òØ6ƒ∞Æˇ˙^˙NÉ´¿\p!oÀ5“ézû∞Õ¡ U†bï>€_ÃÍw=wÎBŸ: x ¿}2Pﬁ˘‡£34™¥∏/;Ó 3yÚ«Ç˚¯oáÌR&†À€k√Z#ó`◊gÈ)N%ü@t=‹¡«Ôˆ˜2,∆$|ˇw[ƒ.∫´˜‹µRm—j3[ΩkÅ≥sÿAÀcÚÍq‚Ï∫ÙDÒ◊ì„ﬂ&Í=ÚÚ©°˚\|oPi(ÖNà˜’øSª ’e"PcÙß`ÑOπûùÏÌ¥´∞Èw*œhﬁÙã˚nﬂûOÅNˇ˝l6lˇ]ƒõ.gW«U7d|»)Ü]≠ƒóa∏}û¬Ä	ñ‚é÷P»™—#Ä˙{…≈#d5t≥j©ˇü	˘¡`äW{‡Uœå¢#„é/X≥)ß|£p…óßM~+|y5æEk≠Ò≠∆ÂÉóªˆ%álBÃO0P~ÍëéCÙfô˚Í-ô>¡—x±J⁄º¿ÜE61Çç0Çâ0ÅÆ0Åß10	UIT10U
-Zucchetti S.p.A.1)0'U Qualified Trust Service Provider10UaVATIT-050069009621604U-Zucchetti Qualified Electronic Signature CA 2	£0	`ÜHe†Ç±0	*ÜHÜ˜	1	*ÜHÜ˜0	*ÜHÜ˜	1250602131544Z0$ çE1application/octet-stream0+	*ÜHÜ˜	4100	`ÜHe°	*ÜHÜ˜ 0/	*ÜHÜ˜	1" ÍõŒsx„5†¿Jmı.(r∫é  Sq˙·rØ0ÅÚ*ÜHÜ˜	/1Å‚0Åﬂ0Å‹0ÅŸ Ë∫j‚≤™=“ÚrVäè^¿H&J{mE‚Å– @*0Å¥0Å≠§Å™0Åß10	UIT10U
-Zucchetti S.p.A.1)0'U Qualified Trust Service Provider10UaVATIT-050069009621604U-Zucchetti Qualified Electronic Signature CA 2	£0	*ÜHÜ˜ Ç ÑÕú6h?2‹üäiÇiu∆ŸVz7†å∆9L≥»æÙçò<∞$å`≠”Ûh7¥»/…\,’4ÿÿ·	ë‹jÛtˆ:ªÏ -Ú]∑ç[hzû<jB≈Ê•Ë;≈7µ•”]ñK ∞ìGæ{ÇOâ∂` ’ıH§œ·aü`Uî[)"æÖ‘“"ë5 ewrgœ5m63çZ‚IÍ” ÒO°⁄dÇõaòÁˆv$ ‹˚˙«ïÁÒq6íÀËƒØù®w3#Sq©à¬~µdÆ?ê^ûhß¡=”˘ÀÒ€≈ã‹˚õE≤vi5æ§ÆoÂÅ Io &"å@àpﬁ k˛
-Æüâƒq
