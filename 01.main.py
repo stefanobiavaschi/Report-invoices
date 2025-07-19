@@ -3,6 +3,7 @@ from lib.processxml import XMLProcessing
 
 xmlproc = XMLProcessing()
 
+# Update the input directories as needed
 input_dirs = [
     "data/raw/25_02_01-25_03_31",
     "data/raw/25_04_01-25_05_30",
