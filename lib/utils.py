@@ -1,6 +1,7 @@
 import subprocess
 import os
 import xml.etree.ElementTree as ET
+import matplotlib.pyplot as plt
 
 import logging
 
@@ -86,3 +87,68 @@ def load_xml_safe(file_path, logger=None):
             except Exception as e:
                 raise e  # Altri errori gravi vanno sollevati
         raise ET.ParseError(f"Impossibile decodificare {file_path} con gli encoding provati.")
+    
+
+def plot_cake_mittente(df_invoices_details):
+    """
+    Crea un grafico a torta che mostra la distribuzione dell'importo pagato ai vari fornitori.
+    """
+    
+    # Raggruppa e somma
+    grouped = df_invoices_details.groupby('Denominazione_Mittente')['Prezzo_ivato'].sum()
+
+    # Calcola le percentuali
+    percent = grouped / grouped.sum()
+
+    # Dividi in main e altri
+    main = grouped[percent >= 0.02]
+    other = grouped[percent < 0.02]
+    main['Altro'] = other.sum()
+
+    # Ordina dal più grande al più piccolo
+    main = main.sort_values(ascending=False)
+
+    # Crea le etichette tagliate a 20 caratteri
+    labels = [label[:20] for label in main.index]
+
+    # Palette colori
+    colors = plt.get_cmap('tab20').colors
+    n_colors = len(colors)
+    n_slices = len(main)
+    colors_to_use = [colors[i % n_colors] for i in range(n_slices)]
+
+    # Grafico a torta
+    plt.figure(figsize=(8, 8))
+    plt.pie(main, labels=labels, autopct='%1.1f%%', startangle=140, colors=colors_to_use)
+    plt.title('Distribuzione dell importo pagato ai vari fornitori')
+    plt.axis('equal')
+    plt.tight_layout()
+    plt.show()
+
+
+def plot_hist_mittente(df_invoices_details, col_groupby='Denominazione_Mittente'):
+    # Raggruppa e somma
+    grouped = df_invoices_details.groupby(col_groupby)['Prezzo_ivato'].sum()
+
+    # Calcola le percentuali per "Altro"
+    percent = grouped / grouped.sum()
+
+    # Dividi in main e altri
+    main = grouped[percent >= 0.005]
+    other = grouped[percent < 0.005]
+    main['Altro'] = other.sum()
+
+    # Ordina dal più grande al più piccolo
+    main = main.sort_values(ascending=False)
+
+    # Etichette accorciate a 20 caratteri
+    labels = [label[:20] for label in main.index]
+
+    # Crea l'istogramma
+    plt.figure(figsize=(10, 6))
+    plt.bar(labels, main, color='skyblue')
+    plt.xticks(rotation=45, ha='right')
+    plt.ylabel('Prezzo Ivato (somma assoluta)')
+    plt.title('Importo Totale dell importo pagato ai vari fornitori')
+    plt.tight_layout()
+    plt.show()

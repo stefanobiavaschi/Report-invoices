@@ -1,0 +1,24 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 24.4.2  # Usa una versione stabile
+    hooks:
+      - id: black
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.6.1
+    hooks:
+      - id: nbstripout
+        files: \.ipynb$
+
+  # Alternativa moderna a nbstripout:
+  - repo: https://github.com/kynan/nb-clean
+    rev: v3.3.0
+    hooks:
+      - id: nb-clean
+        args: ["--clear-output"]
+        files: \.ipynb$
