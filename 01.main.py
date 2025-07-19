@@ -13,4 +13,5 @@ input_dirs = [
 
 xmlproc.process_xml(input_dirs)
 
+# Select date in the format "yymmdd"
 postprocess(data_string="250713")
