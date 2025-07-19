@@ -14,11 +14,3 @@ repos:
     hooks:
       - id: nbstripout
         files: \.ipynb$
-
-  # Alternativa moderna a nbstripout:
-  - repo: https://github.com/kynan/nb-clean
-    rev: v3.3.0
-    hooks:
-      - id: nb-clean
-        args: ["--clear-output"]
-        files: \.ipynb$

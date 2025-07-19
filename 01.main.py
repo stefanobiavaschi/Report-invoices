@@ -1,5 +1,5 @@
-from lib.processxml import XMLProcessing
 from lib.postprocess import postprocess
+from lib.processxml import XMLProcessing
 
 xmlproc = XMLProcessing()
 
@@ -11,8 +11,6 @@ input_dirs = [
 ]
 
 
-xmlproc.process_xml(
-    input_dirs
-    )
+xmlproc.process_xml(input_dirs)
 
 postprocess(data_string="250713")
