@@ -10,10 +10,11 @@ input_dirs = [
     "data/raw/25_05_31-25_06_25",
     "data/raw/25_06_26-25_07_12",
     "data/raw/25_07_13-25_08_07",
+    "data/raw/25_08_08-25_09_05",
 ]
 
 
 xmlproc.process_xml(input_dirs)
 
 # Select date in the format "yymmdd" for create excel files
-postprocess(data_string="250809")
+postprocess(data_string="250905")
